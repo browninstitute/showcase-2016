@@ -1,29 +1,25 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Magic Grant Fall Showcase
+email: amccartn@stanford.edu
+url: brown.stanford.edu
+description: "Join the Brown Institute for Media Innovation at Stanford for a showcase of Magic Grant-funded digital media projects."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#000000'
-  links: '#219ab3'
+  primary-dark: '#FFFFFF'
+  links: '#8C1515'
+
+location: '350 Serra Mall Stanford, CA 94305'
 
 # Footer settings
-footer: Your Website
+footer: The Brown Institute for Media Innovation
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
+    url: https://twitter.com/BrownInstitute
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://www.facebook.com/MadeAtBrown
 
 # Build settings
 markdown: kramdown
