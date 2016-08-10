@@ -1,11 +1,11 @@
 # Site settings
 title: Media Innovation Showcase 2016
 email: yilmaz@stanford.edu
-url: brown.stanford.edu
+url: http://brown.stanford.edu
 description: "Join the Brown Institute as we celebrate a stellar year of media innovation."
 
 github:
-  url: browninstitute.github.io/showcase-2016
+  url: http://browninstitute.github.io/showcase-2016
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
