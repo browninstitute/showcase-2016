@@ -1,0 +1,28 @@
+# Site settings
+title: Media Innovation Showcase 2016
+email: yilmaz@stanford.edu
+url: brown.stanford.edu
+description: "Join the Brown Institute as we celebrate a stellar year of media innovation."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-light: '#FFFFFF'
+  primary-dark: '#181B24'
+  links: '#8C1515'
+  accent: '#D2C295'
+
+location: '350 Serra Mall Stanford, CA 94305'
+
+# Footer settings
+footer: The Brown Institute for Media Innovation
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/BrownInstitute
+  - title: facebook
+    url: https://www.facebook.com/MadeAtBrown
+
+# Build settings
+markdown: kramdown
+permalink: pretty

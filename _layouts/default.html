@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    {% include header.html %}
+    {% include projects.html %}
+    {% include info.html %}
+    {% include about.html %}
+    {% include contact.html %}
+    {% include cj.html %}
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+    <script>
+      $(document).ready(function () {
+        geocoder("{{ site.location }}");
+
+        $('.project-toggler').click(function(){
+          $('.project-toggler').removeClass('active');
+          $(this).addClass('active');
+
+          var target = $(this).attr('data-target')
+
+          $('.project-toggle').hide();
+          $(target).show();
+        });
+
+        $('.fellow-project-toggler').click(function(){
+          $('.fellow-project-toggler').removeClass('active');
+          $(this).addClass('active');
+
+          var target = $(this).attr('data-target')
+
+          $('.fellow-project-toggle').hide();
+          $(target).show();
+        });
+
+      });
+    </script>
+</html>
