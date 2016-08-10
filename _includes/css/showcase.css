@@ -166,10 +166,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #696969;
-    /*background: linear-gradient(to bottom, {{ site.color.links }}, #AA1741);*/
-    /*background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;*/
     background: linear-gradient(to bottom, {{ site.color.primary-dark }}, #1C1E35);
-    /*background-color: {{ site.color.primary-dark }};*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -493,7 +490,7 @@ img#logo {
   height: 450px;
   position: relative;
   overflow: hidden;
-  background: url(/img/stanford-illo.png);
+  background: url({{ site.github.url }}/img/stanford-illo.png);
   background-size: 320px 450px;
   background-repeat: no-repeat;
 }
@@ -502,7 +499,7 @@ img#logo {
   height: 190px;
   position: relative;
   overflow: hidden;
-  background: url(/img/mobile-header.png);
+  background: url({{ site.github.url }}/img/mobile-header.png);
   background-size: 285px 190px;
   background-repeat: no-repeat;
   display: none;
@@ -575,7 +572,7 @@ img#logo {
       height: 400px;
       position: relative;
       overflow: hidden;
-      background: url(/img/stanford-illo.png);
+      background: url({{ site.github.url }}/img/stanford-illo.png);
       background-size: 270px 400px;
       background-repeat: no-repeat;
     }
