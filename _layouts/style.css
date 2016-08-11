@@ -1,2 +1,3 @@
 {% include css/bootstrap.min.css %}
+{% include css/equal-heigh-columns.css %}
 {% include css/showcase.css %}
