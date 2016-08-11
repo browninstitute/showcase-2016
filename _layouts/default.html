@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include projects.html %}
-    {% include info.html %}
-    {% include about.html %}
-    {% include contact.html %}
-    {% include cj.html %}
-    {% include footer.html %}
-    {% include js.html %}
+    <body id="page-top" data-spy="scroll" data-target="#navbar">
+      {% include nav.html %}
+      {% include header.html %}
+      {% include projects.html %}
+      {% include info.html %}
+      {% include about.html %}
+      {% include contact.html %}
+      {% include cj.html %}
+      {% include footer.html %}
+      {% include js.html %}
     </body>
     <script>
       $(document).ready(function () {
+        window.scrollTo(0,0);
+        
         geocoder("{{ site.location }}");
 
         $('.project-toggler').click(function(){

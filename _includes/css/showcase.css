@@ -336,6 +336,11 @@ button.btn.btn-primary.fellow-project-toggler.active {
     }
 }
 
+[class*="col-"] {
+  background-color: transparent;
+  border: none;
+}
+
 .content-section {
     padding-top: 100px;
 }
@@ -486,12 +491,11 @@ img#logo {
 }
 
 .cloud-bg {
-	width: 320px;
-  height: 450px;
   position: relative;
   overflow: hidden;
   background: url({{ site.github.url }}/img/stanford-illo.png);
-  background-size: 320px 450px;
+  background-position:50% 50%;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .cloud-bg-mobile {
@@ -542,8 +546,8 @@ img#logo {
 }
 
 @-webkit-keyframes move {
-  from {-webkit-transform: translateX(-200px);}
-  to {-webkit-transform: translateX(150px);}
+  from {-webkit-transform: translateX(-250px);}
+  to {-webkit-transform: translateX(190px);}
 }
 
 .section-angle-top {
@@ -568,20 +572,18 @@ img#logo {
         margin-top: 15px;
     }
     .cloud-bg {
-    	width: 270px;
-      height: 400px;
       position: relative;
       overflow: hidden;
       background: url({{ site.github.url }}/img/stanford-illo.png);
-      background-size: 270px 400px;
-      background-repeat: no-repeat;
+      background-position:50% 50%;
+      background-size: contain;
+      background-repeat:no-repeat;
     }
 }
 
 @media(max-width:991px) {
   .sm-screen { display: inline-block; }
   .lg-screen { display: none; }
-
 }
 
 @media(max-width:767px) {

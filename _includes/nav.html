@@ -1,5 +1,5 @@
  <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav id="navbar" class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -7,7 +7,7 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
                     <!-- <img id="logo" src="{{ site.github.url }}/img/brown-logo.png" /> -->
-                    <img id="logo" src="{{ site.github.url }}/img/logos/showcaselogo_horizontal.svg" onerror="this.onerror=null; this.src='/img/logos/showcaselogo_horizontal.png'">
+                    <img id="logo" src="{{ site.github.url }}/img/logos/showcaselogo_horizontal.svg" onerror="this.onerror=null; this.src='{{ site.github.url }}/img/logos/showcaselogo_horizontal.png'">
                 </a>
             </div>
 
@@ -16,7 +16,7 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#grants">Magic Grants</a>
