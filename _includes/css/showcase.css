@@ -499,12 +499,12 @@ img#logo {
   background-repeat: no-repeat;
 }
 .cloud-bg-mobile {
-  width: 285px;
+  width: 270px;
   height: 190px;
   position: relative;
   overflow: hidden;
   background: url({{ site.github.url }}/img/mobile-header.png);
-  background-size: 285px 190px;
+  background-size: 270px 190px;
   background-repeat: no-repeat;
   display: none;
 }
@@ -604,7 +604,6 @@ img#logo {
     }
     #header-content {
       text-align: center;
-      margin-top: 20px;
     }
     .cloud-bg {
       display: none;
@@ -625,6 +624,10 @@ img#logo {
     }
     .intro .intro-body .brand-heading {
       font-size: 45pt;
+      padding: 0 15px;
+    }
+    .intro .intro-body p {
+      padding: 0 15px;
     }
 
     img#logo {
