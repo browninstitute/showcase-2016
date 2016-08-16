@@ -12,7 +12,9 @@ color:
   primary-light: '#FFFFFF'
   primary-dark: '#181B24'
   links: '#8C1515'
+  # accent: '#E14658'
   accent: '#D2C295'
+  # links: '#22252C'
 
 location: '350 Serra Mall Stanford, CA 94305'
 

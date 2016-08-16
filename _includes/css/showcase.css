@@ -702,7 +702,7 @@ body {
 h1,h2,h3,h4,h5 { color: #a9a9a9; }
 
 h2.brand-heading {
-  color: #8C1515;
+  color: {{ site.color.links }};
 }
 
 .cloud1 {
@@ -711,3 +711,4 @@ h2.brand-heading {
 }
 .cloud2 { stroke: #a9a9a9; }
 .cloud-bg-mobile .cloud2 { fill: #efefef; }
+.row { margin-right: 0; }
